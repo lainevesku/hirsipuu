@@ -1,0 +1,28 @@
+.header ul {
+    background-color: rgb(13, 141, 216);
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.header li {
+    float: left;
+    color: white;
+    padding: 12px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header_dropdown a {
+    color: white;
+    text-decoration: none;
+}
+.header li:hover {
+    background-color: red;
+}
+
+.header_dropdown a:hover .header_dropcontent a {
+    display: block;
+}

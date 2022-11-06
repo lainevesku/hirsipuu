@@ -1,5 +1,5 @@
 type HirsipuuSanaProps = {
-    arvattuKirjain: string[],
+    arvattuKirjain: string[]
     arvattavaSana: string
     reveal?: boolean
 }

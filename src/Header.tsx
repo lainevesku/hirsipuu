@@ -19,7 +19,7 @@ function Header() {
     }
 
   return (
-    <Navbar style={{backgroundColor: "#3784B5" }} expand="sm" sticky="top">
+    <Navbar style={{backgroundColor: "#3784B5" }} expand="sm" >
       <Container>
         <Navbar.Brand href="/">Hirsipuu - Etusivu </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
